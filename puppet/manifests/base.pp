@@ -7,6 +7,7 @@
 #
 include wget
 include maven
+include git
 
 # Install latest jdk
 class { "java":
